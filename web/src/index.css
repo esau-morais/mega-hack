@@ -1,0 +1,28 @@
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Saria', sans-serif;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container {
+  justify-content: space-between;
+}
