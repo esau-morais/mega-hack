@@ -2,10 +2,13 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Header = styled.div`
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 49px;
   padding: 5px 0 0 0;
   background-color: #000;
+  z-index: 1
 `;
 
 export const Title = styled.h2`
@@ -17,7 +20,7 @@ export const Title = styled.h2`
 
 export const Nav = styled.footer`
   display: inline-flex;
-  position: absolute;
+  position: fixed;
   align-items: center;
   justify-content: space-evenly;
   left: 0;
@@ -54,11 +57,9 @@ export const Desc = styled(Title)`
 `;
 
 export const List = styled.div`
+  margin: 0 auto;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: space-between;
-  overflow-x: auto
+  justify-content: space-evenly;
 `;
 
 export const Item = styled(Link)`
@@ -70,4 +71,17 @@ export const Item = styled(Link)`
   text-decoration: none;
   color: #FFF;
   border-bottom: 2px solid #FF0000;
+`;
+
+export const EmbedCont = styled.div`
+  margin: 1em;
+  width: 90%;
+  display: grid;
+  align-items: center;
+  justify-items: center
+`;
+
+export const Img = styled.img`
+  margin: 1em;
+  width: 80%
 `;

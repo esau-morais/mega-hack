@@ -1,7 +1,6 @@
 import React from 'react';
 import HorizontalScroller from 'react-horizontal-scroll-container';
-import { XItem } from '../components/XPlayComponents';
-import Slider from '../components/Slider';
+import XSlider, { XItem } from '../components/XPlayComponents';
 
 function XPlay() {
   return (
@@ -27,8 +26,12 @@ function XPlay() {
           <img src="/images/GE.png" alt="GE"/>
           GE
         </XItem>
+        <XItem to="/xplay/gsatplay">
+          <img src="/images/GSatPlay.png" alt="GSatPlay"/>
+          GSatPlay
+        </XItem>
       </HorizontalScroller>
-      <Slider />
+      <XSlider />
     </>
   );
 }
