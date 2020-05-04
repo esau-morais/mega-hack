@@ -43,7 +43,7 @@ export const XLink = styled(Link)`
 `;
 
 export const Box = styled.div`
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -84,4 +84,13 @@ export const EmbedCont = styled.div`
 export const Img = styled.img`
   margin: 1em;
   width: 80%
+`;
+
+export const News = styled.a`
+  font-size: 16;
+  fontt-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #FF0000;
+  color: #FFF
 `;

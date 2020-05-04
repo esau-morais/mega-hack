@@ -9,7 +9,8 @@ function Search() {
     <>
       <Input
         style={{ 
-          margin: 10, 
+          alignSelf: 'center',
+          margin: '10px 0', 
           padding: '1px 4px',
           width: '94%',
           backgroundColor: '#3E3E3E', 

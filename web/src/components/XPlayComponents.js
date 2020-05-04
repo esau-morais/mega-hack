@@ -31,6 +31,7 @@ function XSlider() {
       margin: '.6em 0',
       width: '80%',
       height: '80%',
+      alignSelf: 'center'
     }
   }
 

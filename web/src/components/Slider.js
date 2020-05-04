@@ -19,7 +19,8 @@ function Slider() {
     container: {
       margin: '.6em 0',
       width: '90%',
-      height: '60% !important',
+      height: '60%',
+      alignSelf: 'center'
     }
   }
 
